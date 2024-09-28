@@ -1,0 +1,59 @@
+﻿
+
+<html>
+<body>
+    <form action="login?returnUrl=[ReturnUrl]" method="post" class="formSection">
+        <h1>Custom OAuthServer Test</h1>
+        <h4>*This is just an OAuth Concept Demo, does not include any user credentials</h4>
+        <input value="Login" type="submit" class="formButton" />
+    </form>
+</body>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    body {
+        /*  background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)*/
+        background: #085078; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #85D8CE, #085078); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
+
+    .formSection {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .formSection h1{
+        font-family: "Open Sans", sans-serif;
+        color: white;
+    }
+        .formSection h4 {
+            font-family: "Open Sans", sans-serif;
+            color: white;
+            font-weight: 300;
+        }
+    .formButton {
+        background-color: white;
+        border: 2px white solid;
+        border-radius: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        padding: 10px 25px;
+        height: 55px;
+        cursor: pointer;
+    }
+
+        .formButton:hover {
+            background-color: #f2f2f2;
+            border: 2px #f2f2f2 solid;
+        }
+
+</style>
+</html>
